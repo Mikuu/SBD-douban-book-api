@@ -1,0 +1,5 @@
+record:
+java -jar wiremock-standalone-2.5.0.jar --port 3000 --root-dir mock-data --proxy-all="https://api.douban.com" --record-mappings  --verbose
+
+playback:
+java -jar wiremock-standalone-2.5.0.jar --port 3000 --root-dir mock-data --verbose

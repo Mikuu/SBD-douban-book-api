@@ -1,0 +1,29 @@
+{
+  "id" : "dac3aecd-a439-3e33-b32e-39a85e5a2149",
+  "request" : {
+    "url" : "/v2/book/search?q=Python&count=3",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-book-search-CNJs6.json",
+    "headers" : {
+      "Date" : "Tue, 17 Apr 2018 16:22:18 GMT",
+      "Content-Type" : "application/json; charset=utf-8",
+      "Connection" : "keep-alive",
+      "Keep-Alive" : "timeout=30",
+      "Vary" : "Accept-Encoding",
+      "X-Ratelimit-Remaining2" : "92",
+      "X-Ratelimit-Limit2" : "100",
+      "Expires" : "Sun, 1 Jan 2006 01:00:00 GMT",
+      "Pragma" : "no-cache",
+      "Cache-Control" : "must-revalidate, no-cache, private",
+      "Set-Cookie" : "bid=5kaDjr7SgM0; Expires=Wed, 17-Apr-19 16:22:18 GMT; Domain=.douban.com; Path=/",
+      "X-DOUBAN-NEWBID" : "5kaDjr7SgM0",
+      "X-DAE-Node" : "nain8",
+      "X-DAE-App" : "book",
+      "Server" : "dae"
+    }
+  },
+  "uuid" : "dac3aecd-a439-3e33-b32e-39a85e5a2149"
+}
