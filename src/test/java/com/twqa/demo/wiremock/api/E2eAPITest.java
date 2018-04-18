@@ -7,7 +7,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.equalTo;
 
-public class StandaloneTest {
+public class E2eAPITest {
 
     @Test
     public void testWithStandalone() {

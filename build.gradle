@@ -30,4 +30,5 @@ dependencies {
 	testCompile('io.rest-assured:rest-assured:3.0.7')
 	testCompile('io.rest-assured:json-path:3.0.7')
 	testCompile('io.rest-assured:json-schema-validator:3.0.7')
+    testCompile("com.github.tomakehurst:wiremock:2.5.0")
 }
