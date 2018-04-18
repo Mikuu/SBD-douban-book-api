@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class MyConfig {
 
     private String url;
-    private String path;
+    private String path = "/v2/book/search?q={query}&count={count}&fields=publisher,price,page,id,title,images,tags,binding";
 
     public String getUrl() {
         return url;
